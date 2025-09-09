@@ -37,9 +37,7 @@ const NavBar = () => {
     >
       {/* Logo */}
       <div className="logo">
-        <h3 className="text-xl sm:text-2xl font-bold tracking-tight sp-text">
-          GetCode.
-        </h3>
+        <h3 className="text-xl sm:text-2xl font-bold sp-text">GenUI</h3>
       </div>
 
       {/* Icons */}
@@ -54,7 +52,7 @@ const NavBar = () => {
           {theme === "dark" ? (
             <HiSun className="text-lg sm:text-xl text-yellow-400" />
           ) : (
-            <IoMdMoon className="text-lg sm:text-xl text-[#c29de7]" />
+            <IoMdMoon className="text-lg sm:text-xl " />
           )}
         </button>
 

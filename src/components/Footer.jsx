@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
         {/* Logo / Brand */}
         <h3 className="text-lg font-semibold tracking-tight">
-          GetCode<span className="text-[#6d28d9]">.</span>
+          GenUI<span className="text-[#6d28d9]">.</span>
         </h3>
 
         {/* Links */}
@@ -24,7 +24,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          © {new Date().getFullYear()} GetCode. All rights reserved.
+          © {new Date().getFullYear()} GenUI All rights reserved.
         </p>
       </div>
     </footer>
